@@ -31,7 +31,7 @@ if ($token) {
 <div class="tst">
 
     <?php if ($error) : ?>
-        <div class="error"><?php echo $error ?></div>
+        <div class="error"><?php var_dump($error) ?></div>
     <?php elseif ($user): ?>
 
         <div class="user-card">
